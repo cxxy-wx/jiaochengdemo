@@ -42,7 +42,7 @@ public class UserController {
 
         System.out.println("用户注册 - " + userEntity.toString());
         userService.save(userEntity);
-        return "success";
+        return "successful";
     }
 
 
